@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+.buttons {
+    padding-top: 50px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.new__user {
+    background: none;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.new__user:hover {
+    background: rgb(170, 170, 170);
+}
+caption {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.table__users {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.send__text__ {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.start {
+    background: none;
+    width: 180px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.start:hover {
+    background: rgb(170, 170, 170);
+}
+.hr__box {
+    padding-bottom: 50px;
+}
+.a__tg {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+}
+.tg:hover {
+    background: rgb(170, 170, 170);
+}
+.tg {
+    width: 200px;
+    height: 50px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.inputs {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.input__ {
+    margin-left: 30px;
+}
+.inp {
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+}
+.panel {
+    display: none;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+.accordion {
+    background: none;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+footer {
+    text-align: center;
+    padding-top: 500px;
+}

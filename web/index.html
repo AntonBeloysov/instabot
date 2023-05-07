@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>InstaBot - Developer Ok!</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <button class="accordion">Добавить аккаунт</button>
+            <div class="panel">
+                <div class="hr__box">
+                    <hr>
+                </div>
+                <div class="inputs">
+                    <input placeholder="Введите никнейм" id="nik" class="inp" type="text"></input>
+                    <input placeholder="Введите пароль" id="pass" class="input__ inp" type="text"></input>
+                </div>
+                <div class="buttons">
+                    <button onclick="addRow('myTable');return false; newusmask();" class="new__user">Создать</button>
+                </div>
+            </div>
+            <div class="table__users">
+                <table id="myTable" width="1000px" border="2" cellpadding="4" cellspacing="0">
+                    <tbody>
+                        <tr><th>username</th><th>password</th></tr>
+                        <caption>Users</caption>
+                    </tbody>
+                </table>
+            </div>
+            <div class="send__text__">
+                <input id="inp" placeholder="Введите текст" class="input__text__" type="text"></input>
+                <button onclick="inp(); create(); sta();" class="start">Начать Рассылку!</button>
+            </div>
+            <div class="hr__box">
+                <hr>
+            </div>
+            
+            <div class="wrap">
+                <div class="tg">
+                    <a class="a__tg" href="https://t.me/KlybnIkaB0mba">Телеграм Разработчика</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h4 class="foot">InstaBot - Developer OK!</h4>
+        </footer>
+    </div>
+    <script src="eel.js"></script>
+    <script src="scripts/tig.js"></script>
+    <script src="scripts/table__user.js"></script>
+</body>
+</html>
