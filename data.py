@@ -1,4 +1,4 @@
-username = "eva_kreyd"
-password = "12345678Cc"
+username = ""
+password = ""
 
 user_settings_dict = {} # переменная для хранения юзеров
